@@ -36,4 +36,20 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	//Exemplo: /pages/teste
+	
+	//////////
+	//customs
+	//////////
+	
+    //atalho para o login
+	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+	
+    //atalho para o contato
+	Router::connect('/contato', array('controller' => 'contato', 'action' => 'index'));
+
+    //encaminha outras requisicoes para o controller pages
+    Router::connect('/*', array('controller' => 'pages', 'action' => 'display'));
+	//Exemplo: /teste
+	
 ?>

@@ -148,7 +148,8 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'uQb0vUahJuui1JgLdP5oeG2NrzhC36nYkKxzlGJl');
+	//dica para gerar salt no linux: "cat /dev/urandom| tr -dc '0-9a-zA-Z'|head -c 40;echo"
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
  * Will append a querystring parameter containing the time the file was modified. This is
@@ -238,4 +239,7 @@
  *
  */
 	Cache::config('default', array('engine' => 'File'));
+	
+	//separar para deixar mais claro
+    Configure::load('custom');//carrega as constantes do site
 ?>
