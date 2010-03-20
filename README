@@ -1,4 +1,13 @@
-teste do github
+Projetinho pra começar mais rápido e não ter q fazer sempre as mesmas coisinhas iniciais.
+
+Contém:
+CakePHP + cake_ptbr + pagininhas básicas como contato, admin e outras coisinhas.
+
+Nas próximas terá também um com Acl prontinho também.
+
+Também serve para estudar, tentei deixar sempre links e explicações.
+
+=======================================
 
 CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
